@@ -2,11 +2,17 @@ Using the Direct Certificate Authority Console for Generating Test Certificates 
 ======================================================================================
 
 
+Console URL: https://console.directca.org https://console.directca.org
+CA URL:  http://ca.directca.org
+
+
+The Direct Certificate Authority is not for production purposes and is for research and testing purposes only.
+
 The Direct Certificate Authority Console can be used to create
 certificates with a number of variations including what might be
 called good and bad certificates..
 
-The priimary motiovation for developing this software was create test
+The primary motivation for developing this software was create test
 certificates for the purpose of testing Direct. Direct is an email-based
 health information exhange standard protocol that uses email protected with
 x509 certificates. See
@@ -21,10 +27,11 @@ fully test Trust Verification. for example eching for: for items such as:
 * Binding to the expected (when a certificate is pulled from DNS or LDAP)
 
 
-The following instrustions outline how to create the certificates. 
+***This tool does not support OSCP at this time. It only supports CRL. ***
+
+The following instructions outline how to create the certificates. 
 After they are created, you can download them from the website and install them in your 
 Direct system you are testing.
-
 
 
 Logon
@@ -40,12 +47,12 @@ This is the first step and may only need to be done once.
 
 Click the "Create a Top Level Anchor" and fill in the form. The DNS entry is the most important.
 Enter a valid DNS name for your anchor. This is one and the same with the common name (CN).
-For example, "example.com". Please note you can omit CRL or AIA information at any point in the chain by unchecking their checkboxes.
+For example, "example.com". Please note you can omit CRL or AIA information at any point in the chain by un-checking their check boxes.
 When creating a "good" certificate chain, leave the defauls checked.  Click Save at the bottom of the form.
 
 
 If you have self-verify permission you can verify the certificate creation request.
-Otherwise, you must wait for an administrator to verify it for you. After you recive notifcaion the 
+Otherwise, you must wait for an administrator to verify it for you. After you receive notification the 
 anchor is active, refresh the screen to see the new anchor for download and further menu options.
 Click on its name, such as "example.com" to see the full submenu. From here, intermediate anchors and endpoints can be created. The file you most likey need to is the public ".der" file.
 
@@ -70,7 +77,7 @@ To create a certificate for "direct.example.com" enter that value for both field
 
 
 Click Continue to generate the certificate.
-After your certificaste is verified, refesh to see the enpoint certificate menu.
+After your certificates is verified, refesh to see the enpoint certificate menu.
 The file you most likely need is the ".p12" file whch contains both the pulic and private
 certificates in one file.
 
@@ -88,11 +95,11 @@ Creating Bad Certificates
 
 The following sections outline creating so called "bad" certificates where information might be missing.
 
-Note: Tt is reccomended that most negative tests be attached to email-bound 
+Note: It is recommended that most negative tests be attached to email-bound 
 certificates because it makes the testing process easier to manage because 
 it avoids a lot of revocation and re-issuing.
 
-Although the instrustions below are for email-bound endpoints the steps are identical for anchors or domain-bound enpoints.
+Although the instructions below are for email-bound endpoints the steps are identical for anchors or domain-bound endpoints.
 
 
 Create a revoked Endpoint.
@@ -100,20 +107,20 @@ Create a revoked Endpoint.
 
 
 Same as *Create and Email-Bound Endpoint* step but use a something like `revoked@direct.example.com`.
-After downloawding the needed certificates, click on the Revoke button.  You can re-fresh the CRL instantly by clicking recreate CRL.
+After downloading the needed certificates, click on the Revoke button.  You can re-fresh the CRL instantly by clicking recreate CRL.
 
 
 Create an Endpoint without AIA Info.
 ====================================
 
-Same as *Create and Email-Bound Endpoint*  but use a name such as `no-aia@direct.example.com` and uncheck the"Include AIA" box.
+Same as *Create and Email-Bound Endpoint*  but use a name such as `no-aia@direct.example.com` and un-check the"Include AIA" box.
 
 
 Create an Endpoint without CRL Info.
 ====================================
 
 
-Same as *Create and Email-Bound Endpoint* but use a name such as `no-crl@direct.example.com` and uncheck the "Include CRL" box.
+Same as *Create and Email-Bound Endpoint* but use a name such as `no-crl@direct.example.com` and un-check the "Include CRL" box.
 
 Create an Expired Endpoint
 ===========================
@@ -158,6 +165,5 @@ Can be installed with `pip`,
 
 
 All software is open source under the GPLv2 licese.  Other licenses available.
-
 
 
