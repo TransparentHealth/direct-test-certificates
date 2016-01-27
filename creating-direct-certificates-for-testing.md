@@ -69,7 +69,7 @@ The following table outlines Trust Verification Tests made possible with DirectC
 
 \+ **Revocation**: *Revocation is only supported via via CRL.*
 
-++ **Binding to the expected entity**: *Installing the incorrect certificate in DNS or LDAP is a way to test for this. For example, when we query for Alice's certificate, we get a certificate for Bob instead. Please note that the DNS server bundled with Java Direct RI does not allow this misconfiguration since it inspect the certificate to determine the value placed in DNS.  Use BIND or another DNS server for this sort of test.
+++ **Binding to the expected entity**: *Installing the incorrect certificate in DNS or LDAP is a way to test for this. For example, when we query for Alice's certificate, we get a certificate for Bob instead. Please note that the DNS server bundled with Java Direct RI does not allow this misconfiguration since it inspects the certificate to determine the value placed in DNS.  Use BIND or another DNS server for this sort of test.
 
 
 
