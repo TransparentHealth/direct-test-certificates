@@ -74,9 +74,9 @@ The following table outlines Trust Verification Tests made possible with DirectC
 
 
 +++ **Trusted Certificate Path**: AIA could be missing from the endpoint certificate itself or any intermediate certificate between the endpoint and the Trust Anchor.*The certificate chain is verified all the
-way up to the Trust Anchor. (Version 1.1 of the Direct Applicability Statement
-for Secure Health Transport Working does not require checking of the chain back
-to the Root CA, but rather just to the Trust Anchor.
+way up to the Trust Anchor. (Version 1.1 of the "Direct Applicability Statement
+for Secure Health Transport" does not require checking of the chain back
+to the Root CA, but rather  to the Trust Anchor.
 
 
 
