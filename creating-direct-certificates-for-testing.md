@@ -56,7 +56,7 @@ Let's briefly explain each of these items with some negative examples.
 Conditions Supported by DirectCA
 --------------------------------
 
-The following table outlines Trust Verification Tersts made possible with DirectCA.
+The following table outlines Trust Verification Tests made possible with DirectCA.
 
 
     Conditions                          Supported  Certificate to Create       Test Type
