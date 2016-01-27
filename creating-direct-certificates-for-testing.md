@@ -76,7 +76,7 @@ The following table outlines Trust Verification Tests made possible with DirectC
 +++ **Trusted Certificate Path**: AIA could be missing from the endpoint certificate itself or any intermediate certificate between the endpoint and the Trust Anchor.*The certificate chain is verified all the
 way up to the Trust Anchor. (Version 1.1 of the "Direct Applicability Statement
 for Secure Health Transport" does not require checking of the chain back
-to the Root CA, but rather  to the Trust Anchor.
+to the Root CA, but rather to the Trust Anchor.
 
 
 
@@ -184,7 +184,7 @@ A Python library and command line tool for fetching and parsing Direct certifica
 
 The source codee can be found at https://github.com/videntity/getdc
 
-Can be installed with `pip`.
+Can be installed with `pip install django-direct`. Works on Linux or Mac out of the box anon Windows with a little effort.
 
 
 django-direct
@@ -194,14 +194,13 @@ certificates. Depends on `getdc`.
 
 https://github.com/videntity/django-direct
 
-Can be installed with `pip`,
+Can be installed with `pip install getdc`.  Works on Linux or Mac out of the box anon Windows with a little effort.
 
 
 
 Licenses
 --------
-The software packages mentioned above copyright of Videntity Syetare open source under the GPLv2 license.
-Commercial licenses are available. Contact sales@videntity.com for more information. 
+The software packages mentioned above copyright of Videntity Systems, Inc and are  open-sourced under the terms of the GPLv2 license. Non GPL'd commercial licenses are available. Contact sales@videntity.com for more information. 
 
 
   (c)Videntity Systems, Inc. 2013-2016.
