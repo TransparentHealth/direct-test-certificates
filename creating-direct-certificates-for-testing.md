@@ -29,7 +29,7 @@ Certificates used in Direct are [x509 certificates](https://en.wikipedia.org/wik
 
 Trust Verification in Direct
 ----------------------------
-As a primer, please read section 4, "Trust Verification", in the the [Direct Applicibility Statement](http://wiki.directproject.org/file/view/Applicability%20Statement%20for%20Secure%20Health%20Transport%20v1.1.pdf) 
+As a primer, please read section 4, "Trust Verification", in the the [Direct Applicability  Statement](http://wiki.directproject.org/file/view/Applicability%20Statement%20for%20Secure%20Health%20Transport%20v1.1.pdf) 
 
 As you see, there are 5 conditions to satisfy for Trust Verification.
 
