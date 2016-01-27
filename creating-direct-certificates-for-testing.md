@@ -164,14 +164,13 @@ Create an Endpoint with missing AIA
 This step is the same as *Create and Email-Bound Endpoint* except use a name such as `no-aia@direct.example.com` and un-check the "Include AIA" box.
 
 
-
 Other Resources
 ===============
 
 Direct Certificate Authority Console Source Code
 ------------------------------------------------
 
-A Django-powered Certificate Authority This is what runs Directca.org.
+A Django-powered Certificate Authority. This is what runs Directca.org.
 
 https://github.com/videntity/vcert
 
@@ -180,27 +179,26 @@ https://github.com/videntity/vcert
 GetDC - Get Direct Certificate
 ------------------------------
 
-A Python library and command line tool for fetching and parsing Direct certificates
+A Python library and command line tool for fetching and parsing and Direct certificates
 
-The source codee can be found at https://github.com/videntity/getdc
+The source code can be found at https://github.com/videntity/getdc
 
-Can be installed with `pip install django-direct`. Works on Linux or Mac out of the box anon Windows with a little effort.
+This can be installed with `pip install getdc`. Works on Linux or Mac out of the box and on Windows with a little effort.
 
 
 django-direct
 --------------
-A reusable django app that provides a RESTFul API for fetching parsing
-certificates. Depends on `getdc`.
+A re-usable django app that provides a RESTFul API for fetching and parsing certificates. Depends on `getdc`.
 
 https://github.com/videntity/django-direct
 
-Can be installed with `pip install getdc`.  Works on Linux or Mac out of the box anon Windows with a little effort.
+Can be installed with `pip install django-direct`.  Works on Linux or Mac out of the box and on Windows with a little effort.
 
 
 
 Licenses
 --------
-The software packages mentioned above copyright of Videntity Systems, Inc and are  open-sourced under the terms of the GPLv2 license. Non GPL'd commercial licenses are available. Contact sales@videntity.com for more information. 
+The software packages mentioned above copyright of Videntity Systems, Inc and are open-sourced under the terms of the GPLv2 license. Non GPL'd commercial licenses are available. Contact sales@videntity.com for more information. 
 
 
   (c)Videntity Systems, Inc. 2013-2016.
