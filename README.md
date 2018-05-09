@@ -1,12 +1,12 @@
-Using http://DirectCA.org to Create Certificates for Direct and the Edge Testing Tool (ETT)
-===============================================================================================
+Using http://ca.directca.org to Create Certificates for Direct Test Certificates
+=================================================================================
 
 **DISCLAIMER:** The Direct Certificate Authority (DirectCA.oeg) is not be used for production purposes. This certificate authority is only testing and research purposes.
 
 **DISCLAIMER:** The DirectCA.org Certificate Authority supports Certification Revocation Lists(CRL) https://en.wikipedia.org/wiki/Certificate_revocation_list. It does not support Online Certificate Status Protocol (OCSP) (https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) at this time.
 
 Purpose and Audience
------------------------------
+--------------------
 
 The purpose of this document is to demonstrate how to create Direct certificates for use with a Direct server or NIST's Edge Testing Tool (ETT) using DirtectCA. DirectCA is an [open source](https://github.com/videntity/vcert/) tool, that was created to support NIST, the ONC, and ATLs in creating a variety of certificates for testing purposes.  These include certificates that could be deemed "bad".
 
