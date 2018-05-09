@@ -1,5 +1,5 @@
-Using http://ca.directca.org to Create Certificates for Direct Test Certificates
-=================================================================================
+Using http://ca.directca.org to Create Direct Test Certificates
+===============================================================
 
 **DISCLAIMER:** The Direct Certificate Authority (DirectCA.oeg) is not be used for production purposes. This certificate authority is only testing and research purposes.
 
