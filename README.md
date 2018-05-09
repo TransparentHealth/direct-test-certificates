@@ -3,7 +3,7 @@ Using DicrectCA.org to Create Certificates for Direct and the Edge Testinting To
 
 **DISCLAIMER:** The Direct Certificate Authority (DirectCA) should not be used in production purposes and is for research and testing purposes only.
 
-**DISCLAIMER:** The DirectCA tool supports only Certification Revocation Lists (CRL). It does not support OCSP (https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol)  at this time.
+**DISCLAIMER:** The DirectCA tool supports only Certification Revocation Lists(CRL) https://en.wikipedia.org/wiki/Certificate_revocation_list . It does not support Online Certificate Status Protocol (OCSP) (https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) at this time.
 
 Purpose and Audience
 --------------------
