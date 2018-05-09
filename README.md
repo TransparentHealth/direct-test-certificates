@@ -1,9 +1,11 @@
 Using http://ca.directca.org to Create Direct Test Certificates
 ===============================================================
 
-**DISCLAIMER:** The Direct Certificate Authority (DirectCA.oeg) is not be used for production purposes. This certificate authority is only testing and research purposes.
+**DISCLAIMERS:** 
 
-**DISCLAIMER:** The DirectCA.org Certificate Authority supports Certification Revocation Lists(CRL) https://en.wikipedia.org/wiki/Certificate_revocation_list. It does not support Online Certificate Status Protocol (OCSP) (https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) at this time.
+* The Direct Certificate Authority (http://ca.DirectCA.org) is not be used for production purposes. This certificate authority is only testing and research purposes.
+
+* The Direct Certificate Authority (http://ca.DirectCA.org) supports Certification Revocation Lists (CRL) https://en.wikipedia.org/wiki/Certificate_revocation_list. It does not support Online Certificate Status Protocol (OCSP) (https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) at this time.
 
 Purpose and Audience
 --------------------
@@ -12,10 +14,7 @@ The purpose of this document is to demonstrate how to create Direct certificates
 
 Direct CA is a web-based application where users can create certificates for testing purposes.  Unlike in the past, it is no longer necessary to download and setup the Direct Java RI to use the `certGen` tool.  `certGen`, while useful, does not support revocation or CRL/AIA information publication.  For these scenarios, a functioning "certificate authority" is necessary.  DirectCA performs these functions with two online resources. First the [console](https://console.directca.org) is a secured web application where certificates are manipulated (e.g. created, revoked). Public and private certificates can be downloaded here as well. Secondly the [ca](http://ca.directca.org) is a public website where public certificates and related information such as CRLs may be downloaded.
 
-Although an ATL (or anyone) [could install DirectCA locally](https://github.com/videntity/vcert/blob/master/INSTALL.md), it is instead strongly recommended that ATLs use the hosted version. If you are an ATL email sales@videntity.com for a free registration code.
-
-If you are not an ATL but want to use the hosted service. Contact Videntity by phone(+1888.871.1017) or email sales@videntity.com. 
-
+Although an ATL (or anyone) [could install DirectCA locally](https://github.com/transparenthealth/vcert/blob/master/INSTALL.md), it is instead strongly recommended that ATLs use the hosted version. If you are an ATL email sales@videntity.com for a free registration code.
 
 Since Direct CA is [free open source software](https://github.com/transparenthealth/vcert/blob/master/LICENSE.txt), another option is to setup your own server. It could be installed [from source](https://github.com/videntity/vcert) or from a [pre-configured AMI](https://github.com/transparenthealth/vcert/blob/master/INSTALL.md).
 
