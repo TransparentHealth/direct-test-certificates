@@ -1,5 +1,5 @@
-The Meaningful Use (MU3) Repository of Useful Information
-=========================================================
+Creating Test Direct Certificates 
+=================================
 
 
 This repository contains documentation and pointers to information on Meaningful Use Stage 3 Certification.
