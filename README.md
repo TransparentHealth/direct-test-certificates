@@ -1,4 +1,4 @@
-Using http://DicrectCA.org to Create Certificates for Direct and the Edge Testinting Tool (ETT)
+Using http://DirectCA.org to Create Certificates for Direct and the Edge Testinting Tool (ETT)
 ===============================================================================================
 
 **DISCLAIMER:** The Direct Certificate Authority (DirectCA) should not be used for production purposes. This certificate authority is only testing and research purposes.
