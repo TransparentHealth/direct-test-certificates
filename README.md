@@ -196,15 +196,6 @@ Can be installed with `pip install django-direct`.  Works on Linux or Mac out of
 
 
 
-Licenses
---------
-The software packages mentioned above copyright of Videntity Systems, Inc and are open-sourced under the terms of the GPLv2 license. Non GPL'd commercial licenses are available. Contact sales@videntity.com for more information. 
-
-
-  (c)Videntity Systems, Inc. 2013-2018.
-
-
-
 
 
 
