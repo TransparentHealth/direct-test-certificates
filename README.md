@@ -1,12 +1,12 @@
-Using http://DirectCA.org to Create Certificates for Direct and the Edge Testinting Tool (ETT)
+Using http://DirectCA.org to Create Certificates for Direct and the Edge Testing Tool (ETT)
 ===============================================================================================
 
-**DISCLAIMER:** The Direct Certificate Authority (DirectCA) should not be used for production purposes. This certificate authority is only testing and research purposes.
+**DISCLAIMER:** The Direct Certificate Authority (DirectCA.oeg) is not be used for production purposes. This certificate authority is only testing and research purposes.
 
-**DISCLAIMER:** The DirectCA certificate authority tool supports only Certification Revocation Lists(CRL) https://en.wikipedia.org/wiki/Certificate_revocation_list . It does not support Online Certificate Status Protocol (OCSP) (https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) at this time.
+**DISCLAIMER:** The DirectCA.org Certificate Authority supports Certification Revocation Lists(CRL) https://en.wikipedia.org/wiki/Certificate_revocation_list. It does not support Online Certificate Status Protocol (OCSP) (https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol) at this time.
 
 Purpose and Audience
---------------------
+-----------------------------
 
 The purpose of this document is to demonstrate how to create Direct certificates for use with a Direct server or NIST's Edge Testing Tool (ETT) using DirtectCA. DirectCA is an [open source](https://github.com/videntity/vcert/) tool, that was created to support NIST, the ONC, and ATLs in creating a variety of certificates for testing purposes.  These include certificates that could be deemed "bad".
 
@@ -14,10 +14,10 @@ Direct CA is a web-based application where users can create certificates for tes
 
 Although an ATL (or anyone) [could install DirectCA locally](https://github.com/videntity/vcert/blob/master/INSTALL.md), it is instead strongly recommended that ATLs use the hosted version. If you are an ATL email sales@videntity.com for a free registration code.
 
-If you are not an ATL but want to use the hosted service. contact Videntity by phone(+1888.871.1017) or email sales@videntity.com.  Videntity offers a 1 week free trial.  After that the fee is $200/mo.
+If you are not an ATL but want to use the hosted service. Contact Videntity by phone(+1888.871.1017) or email sales@videntity.com. 
 
 
-Since Direct CA is [free open source software](https://github.com/videntity/vcert/blob/master/LICENSE.txt), another option is to setup your own server. It could be installed [from source](https://github.com/videntity/vcert) or from a [pre-configured AMI](https://github.com/videntity/vcert/blob/master/INSTALL.md).
+Since Direct CA is [free open source software](https://github.com/transparenthealth/vcert/blob/master/LICENSE.txt), another option is to setup your own server. It could be installed [from source](https://github.com/videntity/vcert) or from a [pre-configured AMI](https://github.com/transparenthealth/vcert/blob/master/INSTALL.md).
 
 
 
@@ -181,7 +181,7 @@ GetDC - Get Direct Certificate
 
 A Python library and command line tool for fetching and parsing and Direct certificates
 
-The source code can be found at https://github.com/videntity/getdc
+The source code can be found at https://github.com/transparenthealth/getdc
 
 This can be installed with `pip install getdc`. Works on Linux or Mac out of the box and on Windows with a little effort.
 
@@ -190,7 +190,7 @@ django-direct
 --------------
 A re-usable django app that provides a RESTFul API for fetching and parsing certificates. Depends on `getdc`.
 
-https://github.com/videntity/django-direct
+https://github.com/transparenthealth/django-direct
 
 Can be installed with `pip install django-direct`.  Works on Linux or Mac out of the box and on Windows with a little effort.
 
@@ -201,7 +201,7 @@ Licenses
 The software packages mentioned above copyright of Videntity Systems, Inc and are open-sourced under the terms of the GPLv2 license. Non GPL'd commercial licenses are available. Contact sales@videntity.com for more information. 
 
 
-  (c)Videntity Systems, Inc. 2013-2016.
+  (c)Videntity Systems, Inc. 2013-2018.
 
 
 
